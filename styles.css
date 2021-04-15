@@ -124,7 +124,7 @@ span {
 
 .back {
   transform: rotateY(180deg);
-  background-color: #fff;
+  background-color: lightgreen;
   border: 2px solid rgb(240, 240, 240);
 }
 
