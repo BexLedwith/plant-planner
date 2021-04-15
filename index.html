@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plant Planner</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- I want to make a plant tracking/reminder web app. I will make a card for
@@ -14,10 +17,154 @@
     card will have information on plant type, location, name, and special
     instructions. The front of the card will display next watering/fertilizer
     date. Send watering reminder text? email? -->
-      <header>
-        <h1>Bexley's Plant Planner</h1>
-      </header>
+    <header>
+      <h1>Bexley's Plant Planner</h1>
+    </header>
     <div class="container">
+      <div class="livingRoom row">
+        <div class="card lr">
+          <input
+            type="checkbox"
+            id="mamaJade"
+            class="more"
+            aria-hidden="true"
+          />
+          <div class="content">
+            <div class="front" style="background-image: url('IMG_2239.jpg')">
+              <div class="inner">
+                <h4><b>Mama Jade</b></h4>
+                <label for="mamaJade" class="button" aria-hidden="true">
+                  Details
+                </label>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="mamaJade" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card lr">
+          <input
+            type="checkbox"
+            id="anthurium"
+            class="more"
+            aria-hidden="true"
+          />
+          <div class="content">
+            <div class="front" style="background-image: url('IMG_2241.jpg')">
+              <div class="inner">
+                <h4><b>Anthurium</b></h4>
+                <label for="anthurium" class="button" aria-hidden="true">
+                  Details
+                </label>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="anthurium" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card lr">
+          <input type="checkbox" id="ginseng" class="more" aria-hidden="true" />
+          <div class="content">
+            <div class="front" style="background-image: url('IMG_2237.jpg')">
+              <div class="inner">
+                <h4><b>Ginseng</b></h4>
+                <label for="ginseng" class="button" aria-hidden="true">
+                  Details
+                </label>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="ginseng" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card lr">
+          <input type="checkbox" id="aloe" class="more" aria-hidden="true" />
+          <div class="content">
+            <div class="front" style="background-image: url('IMG_2236.jpg')">
+              <div class="inner">
+                <h4><b>Aloe</b></h4>
+                <label for="aloe" class="button" aria-hidden="true">
+                  Details
+                </label>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="aloe" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- bedbroom block 3 cards-->
       <div class="bedroom row">
         <div class="card br">
@@ -28,32 +175,35 @@
             aria-hidden="true"
           />
           <div class="content">
-            <div class="front" style="background-image: url('IMG_2229.jpg');">
-            <div class="inner">
-              <h4><b>Baby Jade</b></h4>
-              <label for="babyJade" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
+            <div class="front" style="background-image: url('IMG_2229.jpg')">
+              <div class="inner">
+                <h4><b>Baby Jade</b></h4>
+                <label for="babyJade" class="button" aria-hidden="true">
+                  Details
+                </label>
+              </div>
             </div>
             <div class="back">
               <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="babyJade" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="babyJade" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
                 </label>
+              </div>
             </div>
           </div>
-        </div>
         </div>
         <div class="card br">
           <input
@@ -63,209 +213,69 @@
             aria-hidden="true"
           />
           <div class="content">
-            <div class="front" style="background-image: url('IMG_2228.jpg');">
-            <div class="inner">
-              <h4><b>Money Tree</b></h4>
-              <label for="moneyTree" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="moneyTree" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
+            <div class="front" style="background-image: url('IMG_2228.jpg')">
+              <div class="inner">
+                <h4><b>Money Tree</b></h4>
+                <label for="moneyTree" class="button" aria-hidden="true">
+                  Details
                 </label>
+              </div>
+            </div>
+            <div class="back">
+              <div class="inner">
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="moneyTree" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
+                </label>
+              </div>
             </div>
           </div>
-        </div>
         </div>
         <div class="card br">
-          <input
-            type="checkbox"
-            id="zebrina"
-            class="more"
-            aria-hidden="true"
-          />
+          <input type="checkbox" id="zebrina" class="more" aria-hidden="true" />
           <div class="content">
-            <div class="front" style="background-image: url('IMG_2230.jpg');">
-            <div class="inner">
-              <h4><b>Zebrina</b></h4>
-              <label for="zebrina" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="zebrina" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
+            <div class="front" style="background-image: url('IMG_2230.jpg')">
+              <div class="inner">
+                <h4><b>Zebrina</b></h4>
+                <label for="zebrina" class="button" aria-hidden="true">
+                  Details
                 </label>
+              </div>
             </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <div class="livingRoom row">
-        <div class="card lr">
-          <input
-            type="checkbox"
-            id="mamaJade"
-            class="more"
-            aria-hidden="true"
-          />
-          <div class="content">
-            <div class="front" style="background-image: url('IMG_2239.jpg');">
-            <div class="inner">
-              <h4><b>Mama Jade</b></h4>
-              <label for="mamaJade" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="mamaJade" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
+            <div class="back">
+              <div class="inner">
+                <div class="info">
+                  <span>
+                    <i class="fa fa-tint"></i>
+                    Watering Frequency
+                  </span>
+                </div>
+                <div class="info">
+                  <span>fertilizer frequency</span>
+                </div>
+                <div class="info">
+                  <span>something else</span>
+                </div>
+                <div class="description">additional details</div>
+                <label for="zebrina" class="button return" aria-hidden="true">
+                  <i class="fa fa-arrow-left"></i>
                 </label>
+              </div>
             </div>
           </div>
         </div>
-        </div>
-        <div class="card lr">
-          <input
-            type="checkbox"
-            id="anthurium"
-            class="more"
-            aria-hidden="true"
-          />
-          <div class="content">
-            <div class="front" style="background-image: url('IMG_2241.jpg');">
-            <div class="inner">
-              <h4><b>Anthurium</b></h4>
-              <label for="anthurium" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="anthurium" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
-                </label>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="card lr">
-          <input
-            type="checkbox"
-            id="ginseng"
-            class="more"
-            aria-hidden="true"
-          />
-          <div class="content">
-            <div class="front" style="background-image: url('IMG_2237.jpg');">
-            <div class="inner">
-              <h4><b>Ginseng</b></h4>
-              <label for="ginseng" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="ginseng" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
-                </label>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="card lr">
-        <input
-            type="checkbox"
-            id="aloe"
-            class="more"
-            aria-hidden="true"
-          />
-          <div class="content">
-            <div class="front" style="background-image: url('IMG_2236.jpg');">
-            <div class="inner">
-              <h4><b>Aloe</b></h4>
-              <label for="aloe" class="button" aria-hidden="true">
-                Details
-              </label>
-            </div>
-          </div>
-          <div class="back">
-            <div class="inner">
-              <div class="info">
-                <span>watering frequency</span>
-              </div>
-              <div class="info">
-                <span>fertilizer frequency</span>
-              </div>
-              <div class="info">
-                <span>something else</span>
-              </div>
-              <div class="description">additional details</div>
-              <label for="aloe" class="button return" aria-hidden="true">
-                <i class="fa fa-arrow-left"></i>
-                </label>
-            </div>
-          </div>
-        </div>        
       </div>
     </div>
   </body>
