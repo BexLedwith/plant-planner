@@ -8,12 +8,12 @@ html {
 }
 
 body {
-  margin: 0;
   align-items: center;
   justify-content: center;
   height: 100vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1rem;
+  margin-bottom: 5rem;
 }
 
 h1 {
@@ -48,6 +48,7 @@ span {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
 }
 
 .card {
